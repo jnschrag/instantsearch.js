@@ -398,6 +398,8 @@ InstantSearch 3 introduces some breaking changes in the widget's naming, options
 | `autoHideContainer` |                       |
 | `label`             | `templates.labelText` |
 | `templates.item`    |                       |
+| `values.on`         | `on`                  |
+| `values.off`        | `off`                 |
 
 `collapsible` and `autoHideContainer` options have been removed. These options are now implemented
 as part of the Panel widget wrapper.
