@@ -438,7 +438,7 @@ Widget removed.
 
 ### connectRange
 
-#### Options
+#### Widget options
 
 | Before          | After       |
 | --------------- | ----------- |
@@ -446,8 +446,20 @@ Widget removed.
 
 ### connectClearRefinements -- previously connectClearAll
 
-#### Options
+#### Widget options
 
 | Before              | After                |
 | ------------------- | -------------------- |
 | `excludeAttributes` | `excludedAttributes` |
+
+### connectToggleRefinement
+
+#### Widget options
+
+| Before       | After |
+| ------------ | ----- |
+| `label`      |       |
+| `values.on`  | `on`  |
+| `values.off` | `off` |
+
+We dropped the `label` as it didn't serve any use-case.
